@@ -32,12 +32,7 @@ func main() {
 
 	for count := 0; ; count++ {
 		// initialize matrix
-		for i := 0; i < n; i++ {
-			matrix = make([][]Cell,n)
-			for j := 0; j < n; j++ {
-				matrix[j] = make([]Cell,n)
-			}
-		}
+		w
 
 		// populate matrix
 		for i := 0; i < n; i++ {
